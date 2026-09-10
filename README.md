@@ -13,23 +13,23 @@ In this architecture, your DonutSQL credentials remain securely on the server an
 Clone the repository, install the required packages, and run the project using the commands below.
 
 ```bash
-git https://github.com/GoLeM-KD/donutsql-sdk-example
-cd donutsql-sdk-example
+git https://github.com/GoLeM-KD/donutsql-vue-example
+cd donutsql-vue-example
 npm install
 npm run dev
 # or
-git https://github.com/GoLeM-KD/donutsql-sdk-example
-cd donutsql-sdk-example
+git https://github.com/GoLeM-KD/donutsql-vue-example
+cd donutsql-vue-example
 yarn
 yarn dev
 # or
-git https://github.com/GoLeM-KD/donutsql-sdk-example
-cd donutsql-sdk-example
+git https://github.com/GoLeM-KD/donutsql-vue-example
+cd donutsql-vue-example
 pnpm install
 pnpm dev
 # or
-git https://github.com/GoLeM-KD/donutsql-sdk-example
-cd donutsql-sdk-example
+git https://github.com/GoLeM-KD/donutsql-vue-example
+cd donutsql-vue-example
 bun install
 bun dev
 ```

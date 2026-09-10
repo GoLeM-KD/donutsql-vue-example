@@ -13,7 +13,7 @@ const error = ref(null);
 // Without parameters
 async function getStudents() {
   try {
-    const pool = await connectDatabase();
+    const pool = await connectDatabase(); //  connect to database
     const result = await pool.query("SELECT * FROM student"); // You can call the query function without any parameter like this
     // ex:- query('your query')
     results.value = result.result.recordset;
