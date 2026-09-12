@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 
 import Home from "../views/Home.vue";
 import Transaction from "../views/Transaction.vue";
+import Procedure from "@/views/Procedure.vue";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -13,6 +14,10 @@ const router = createRouter({
     {
       path: "/transaction",
       component: Transaction,
+    },
+    {
+      path: "/procedure",
+      component: Procedure,
     },
   ],
 });
