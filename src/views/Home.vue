@@ -95,9 +95,14 @@ onMounted(() => {
 
 <template>
   <h1>DonutSQL - Vue.js Example</h1>
-  <RouterLink to="/transaction" style="font-size: 20px; color: black"
-    >Transaction Example</RouterLink
-  >
+  <nav>
+    <RouterLink to="/transaction" style="font-size: 20px; color: black"
+      >Transaction Example</RouterLink
+    >
+    <RouterLink to="/procedure" style="font-size: 20px; color: black"
+      >Procedure Example</RouterLink
+    >
+  </nav>
   <p v-if="error" id="error">{{ error }}</p>
   <div v-else id="tableInteraction">
     <table>
@@ -136,6 +141,12 @@ onMounted(() => {
 </template>
 
 <style scoped>
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 10px;
+}
 #error {
   color: red;
 }
